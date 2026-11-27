@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Extract project
-        run: unzip -q Kian-SMS-v2.zip
+        run: unzip -q Kian-SMS-v4.zip
 
       - name: Setup Java
         uses: actions/setup-java@v4
